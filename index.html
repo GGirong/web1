@@ -1,22 +1,32 @@
 <!doctype html>
 <html>
 <head>
-<title>GGirong introduce</title>
-<meta charset="utf-8">
+  <title>GGirong introduce</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 
 <body>
   <h1><a href="index.html">권기동</a></h1>
-<ol>
-  <li><a href="1.html">오남매툰</a></li>
-  <li><a href="2.html">소이지</a></li>
-  <li><a href="3.html">페이스북</a></li>
-</ol>
-<h2>권기동 소개</h2>
-<p><u><strong>권기동</strong></u>은 경주에서 태어난 오남매 중 셋째로 자라 서울에서 생활하고 있는 대학생입니다.</p>
-<img src="kwon.jpg" width="450px">
-<p style="margin-top:40px;">
-현재 23살로 잡쇼퍼에서 디자이너로 근무하고 있습니다.
-</p>
+  <input type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">오남매툰</a></li>
+      <li><a href="2.html">소이지</a></li>
+      <li><a href="3.html">페이스북</a></li>
+    </ol>
+  <div id="article">
+    <h2>권기동 소개</h2>
+    <p><u><strong>권기동</strong></u>은 경주에서 태어난 오남매 중 셋째로 자라 서울에서 생활하고 있는 대학생입니다.</p>
+    <img src="kwon.jpg" width="450px">
+    <p style="margin-top:40px;">
+    현재 23살로 잡쇼퍼에서 디자이너로 근무하고 있습니다.
+    </p>
+  </div>
+</div>
 </body>
 </html>
